@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../fonts/NanumSquareNeo-aLt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Navbar {
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  font-family: "NanumSquareNeo", sans-serif;
+}
+
+.NavbarLogo {
+  flex: 1;
+}
+
+.NavbarLogo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "NanumSquareNeo", sans-serif;
+}
+
+.NavbarMenuList {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.NavbarMenuList li {
+  margin: 0 15px;
+}
+
+.NavbarMenuList a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "NanumSquareNeo", sans-serif;
+}
+
+.NavbarUser {
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "NanumSquareNeo", sans-serif;
+}

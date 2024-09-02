@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../fonts/NanumSquareNeo-aLt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Sidebar 전체 스타일 */
+.SidebarLeft {
+  width: 25%;
+  height: 120vh;
+  padding: 8px;
+  overflow-y: auto;
+  background-color: #000000;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+  color: #ffffff;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  z-index: 5;
+}
+
+/* 제목 스타일 */
+.SidebarLefttitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* 비디오 버튼 스타일 */
+.video-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+.video-button:hover {
+  background-color: white;
+  color: #000000; /* 호버 시 텍스트 색상 변경 */
+}
+
+/* 선택된 비디오 버튼 스타일 */
+.video-button.selected {
+  background-color: white;
+  color: #000000; /* 선택된 버튼 텍스트 색상 변경 */
+}
+
+/* TreeView 스타일 */
+.tree-view {
+  height: 800px;
+  flex-grow: 1;
+  max-width: 450px;
+  overflow-y: auto;
+  background-color: #000000;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* TreeItem 스타일 */
+.tree-item {
+  background-color: transparent;
+  color: #ffffff;
+  border-bottom: 1px solid #333333;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+.tree-item:hover {
+  background-color: #444444; /* 호버 시 배경색 변경 */
+}

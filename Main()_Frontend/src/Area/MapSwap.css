@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../fonts/NanumSquareNeo-aLt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* MapSwap 전체 스타일 */
+.MapSwap {
+  padding: 20px;
+  background-color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* 헤더 스타일 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* 제목 스타일 */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin: 0;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* 버튼 스타일 */
+.edit-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #fff;
+  color: black;
+  width: 150px;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* 버튼 스타일 */
+.delete-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid black;
+  color: white;
+  width: 150px;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* 지도와 정보 컨테이너 스타일 */
+.map-and-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  height: calc(100% - 50px);
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+/* 지도 컨테이너 스타일 */
+.map-container {
+  width: 75%;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* 카메라 정보 스타일 */
+.camera-info {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-size: 14px;
+  color: white;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}

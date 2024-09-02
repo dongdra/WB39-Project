@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../fonts/NanumSquareNeo-aLt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Footer {
+  background-color: black;
+  text-align: center;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  width: calc(125% - 200px); /* Sidebar의 너비를 제외한 나머지 부분 */
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 465px; /* Sidebar의 너비만큼 왼쪽으로 이동 */
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: white;
+  z-index: 5;
+  overflow-x: hidden;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+.console {
+  white-space: pre-wrap;
+  width: 100%;
+  text-align: left;
+  max-height: 100px;
+  overflow-y: auto;
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+.log-line {
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+  font-size: 12px !important; /* 중요도를 높여 글씨 크기를 줄임 */
+  font-family: "NanumSquareNeo", sans-serif; /* 폰트 적용 */
+}
+
+.log-line img {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
